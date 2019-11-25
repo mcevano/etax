@@ -1,0 +1,90 @@
+@media print {
+  @page { margin: 0; } body { margin: 1.6cm; }
+}
+
+.aBox2550mSched7 {
+	page-break-after: always;
+}
+.barcodes {
+	padding: 2px;
+}
+.btn-regular-users {
+	display: none;
+}
+dd {
+	margin-bottom: -5px;
+}
+footer {
+	display: none;
+}
+
+.footer {
+	position: fixed;  
+	bottom: 0;
+}
+.footer1601C {
+	max-width: 8.9in;
+}
+.footer2200M, .footer2200P {
+	width: 8.0in;
+}
+.footer2000, .footer2000OT, .footer2200AN, .footer2552{
+	width: 9in;
+	display: block;
+	margin: auto;
+}
+
+.footer2200S, .footer1701v2018 {
+	max-width: 8.9in;
+}
+
+.footer1707 {
+	width: 10in;
+}
+
+#formPaper {
+	font-size: 10px;
+	border: 0px;
+	background: none;
+}
+input, select, optgroup, textarea {
+    font-size: 11px;
+    line-height: 8px;
+}
+p {
+	margin-bottom: 5px;
+}
+.content-1702Q {
+	page-break-after: always;
+}
+#Page1Content {
+	  page-break-after: always;
+}
+
+#Page2Content {
+	 page-break-after: always;
+}
+
+#Page3Content {
+	 page-break-after: always;
+}
+
+#Page1, #Page2{
+	  page-break-after: always;
+}
+
+#Print1Content, #Print2Content, #Print3Content, #Print4Content, #Print5Content,  #Print6Content, #Print7Content, #Print8Content, #Print9Content{
+	  page-break-after: always;
+}
+
+#mainContent, .mainContent2200M {
+	page-break-after: always;
+}
+.smallBold {
+	font-size: 15px;
+	font-weight: bolder;
+}
+.tblForm td.tblFormTd {
+	padding: 0px 0 0px 0;
+	line-height: normal;
+}

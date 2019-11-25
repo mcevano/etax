@@ -1,0 +1,72 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class tbl_1702RT_8 extends Model
+{
+    protected $connection = 'mysql2';
+
+    protected $fillable = [
+    	'form_id',
+		'item_sched12_1A',
+		'item_sched12_1B',
+		'item_sched12_1C',
+		'item_sched12_2A',
+		'item_sched12_2B',
+		'item_sched12_2C',
+		'item_sched12_3A',
+		'item_sched12_3B',
+		'item_sched12_3C',
+		'item_sched12_4A',
+		'item_sched12_4B',
+		'item_sched12_4C',
+		'item_sched12_4_other_total',
+		'item_sched12_5A',
+		'item_sched12_5B',
+		'item_sched12_6A',
+		'item_sched12_6B',
+		'item_sched12_7A',
+		'item_sched12_7B',
+		'item_sched12_8A',
+		'item_sched12_8B',
+		'item_sched12_9A',
+		'item_sched12_9B',
+		'item_sched12_10A_type',
+		'item_sched12_10A_stock',
+		'item_sched12_10B_type',
+		'item_sched12_10B_stock',
+		'item_sched12_11A',
+		'item_sched12_11B',
+		'item_sched12_12A',
+		'item_sched12_12B',
+		'item_sched12_13A',
+		'item_sched12_13B',
+		'item_sched12_14A',
+		'item_sched12_14B',
+		'item_sched12_15A',
+		'item_sched12_15B',
+		'item_sched12_16A',
+		'item_sched12_16B',
+		'item_sched12_17A',
+		'item_sched12_17B',
+		'item_sched12_18A',
+		'item_sched12_18B',
+		'item_sched12_19',
+		'item_sched13_1',
+		'item_sched13_2A',
+		'item_sched13_2B',
+		'item_sched13_3A',
+		'item_sched13_3B',
+		'item_sched13_4A',
+		'item_sched13_4B',
+		'item_sched13_5A',
+		'item_sched13_5B',
+		'item_sched13_6A',
+		'item_sched13_6B',
+		'item_sched13_7A',
+		'item_sched13_7B',
+		'item_sched13_8',
+    ];
+}

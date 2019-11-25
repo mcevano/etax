@@ -1,0 +1,70 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class tbl_1702RT_5 extends Model
+{
+    protected $connection = 'mysql2';
+
+    protected $fillable = [
+    	'form_id',
+		'item_sched4_30',
+		'item_sched4_31',
+		'item_sched4_32',
+		'item_sched4_33',
+		'item_sched4_34',
+		'item_sched4_35',
+		'item_sched4_36A',
+		'item_sched4_36B',
+		'item_sched4_37A',
+		'item_sched4_37B',
+		'item_sched4_38A',
+		'item_sched4_38B',
+		'item_sched4_39A',
+		'item_sched4_39B',
+		'item_sched4_40',
+		'item_sched5_1A',
+		'item_sched5_1B',
+		'item_sched5_1C',
+		'item_sched5_2A',
+		'item_sched5_2B',
+		'item_sched5_2C',
+		'item_sched5_3A',
+		'item_sched5_3B',
+		'item_sched5_3C',
+		'item_sched5_4A',
+		'item_sched5_4B',
+		'item_sched5_4C',
+		'item_sched5_5',
+		'item_sched6_1',
+		'item_sched6_2',
+		'item_sched6_3',
+		'item_sched6A_4_year',
+		'item_sched6A_4A',
+		'item_sched6A_4B',
+		'item_sched6A_4C',
+		'item_sched6A_4D',
+		'item_sched6A_4E',
+		'item_sched6A_5_year',
+		'item_sched6A_5A',
+		'item_sched6A_5B',
+		'item_sched6A_5C',
+		'item_sched6A_5D',
+		'item_sched6A_5E',
+		'item_sched6A_6_year',
+		'item_sched6A_6A',
+		'item_sched6A_6B',
+		'item_sched6A_6C',
+		'item_sched6A_6D',
+		'item_sched6A_6E',
+		'item_sched6A_7_year',
+		'item_sched6A_7A',
+		'item_sched6A_7B',
+		'item_sched6A_7C',
+		'item_sched6A_7D',
+		'item_sched6A_7E',
+		'item_sched6A_8',
+    ];
+}

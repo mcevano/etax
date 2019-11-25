@@ -1,0 +1,534 @@
+/*-------------------------------------------------------------------
+    1. GLOBAL
+---------------------------------------------------------------------*/
+
+.aBox {
+  background-color: #e2e2e2;
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+  top: 50%;
+  left: 30%;
+  position: absolute;
+  z-index: 100000;
+}
+
+.aBox input,
+.aBox label {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 11px !important;
+}
+
+.btn-regular-users {
+  z-index: 2;
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.border-grey {
+  border-top: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+.container-main {
+  margin-top: 65px;
+}
+
+.ContentBold,
+.ContentHeader {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ContentBoldSmall {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.ContentHeader {
+  width: 100%;
+  text-align: center;
+}
+
+.ContentRight {
+  text-align: right;
+  padding-right: 3px;
+}
+
+.divCalcBody td,
+.tblCalcHeader td {
+  text-align: center;
+  border: 1px solid #3B3131;
+}
+
+div.SubPageDiv,
+.PageDiv {
+  margin: 0 auto;
+  position: relative;
+  background: #fff;
+}
+
+.firstcol {
+  width: 50%;
+  padding: 5px 15px 5px 15px;
+  border-right: 1px solid black !important;
+  text-align: justify;
+}
+
+.firstcol_noborder {
+  width: 50%;
+  padding: 5px 15px 5px 15px;
+  border-right: 0px solid black !important;
+  text-align: justify;
+}
+
+#frmMain {
+  margin-top: 70px;
+  font-family: Arial, sans-serif, Helvetica;
+}
+
+#formPaper {
+  background: #FFF;
+  width: auto;
+  border: #a7a7a7 1px solid;
+  margin: 0 auto;
+}
+
+.FormHeader1 {
+  font-size: 16pt;
+}
+
+.FormHeader2 {
+  font-size: 9pt;
+}
+
+.FormHeader3 {
+  font-size: 8pt;
+}
+
+.FormHeader4 {
+  font-size: 7pt;
+}
+
+#footer {
+  background: #FFF;
+  width: auto;
+  border: #CCC 1px solid;
+  margin: 0 auto;
+}
+
+#formPaper table {
+  width: 100%;
+}
+
+#footer {
+  background: #FFF;
+  width: auto;
+  border: #CCC 1px solid;
+  margin: 0 auto;
+}
+
+table.FormHeader {
+  text-align: center;
+  width: 100%;
+  border-spacing: 0;
+  background-color: white;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table.FormHeader tr td {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0;
+}
+
+table.RowSubTable {
+  width: 100%;
+  border-spacing: 0;
+}
+
+table.RowSubTableBorder {
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+td.BorderTD {
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+td.FormHeaderLogo {
+  width: 82px;
+  padding: 0 0 0 0;
+  text-align: center;
+}
+
+.tdschedTitle {
+  width: 100%;
+  border-bottom: #000000 2px solid;
+  border-top: #000000 2px solid;
+}
+
+table.RowSubTable {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.tdAmount {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.txtAmount {
+  text-align: right;
+  width: 85%;
+}
+
+.tdBorderRight {
+  border-right: 1px solid black;
+}
+
+.txtDate {
+  width: 80%;
+  text-align: center;
+  margin-right: 2px;
+}
+
+.schedAmount {
+  text-align: right;
+  width: 95%;
+}
+
+.txtCorporate {
+  width: 95%;
+  text-align: left;
+  margin-right: 2px;
+}
+
+/*table with border*/
+
+table.RowSubTableBorder {
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.medium,
+.mediumBold,
+.mediumItalic,
+.mediumBoldItalic {
+  font-size: medium;
+}
+
+.mediumBold {
+  font-weight: bold;
+}
+
+.mediumItalic {
+  font-style: italic;
+}
+
+.mediumBoldItalic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.modalShow2 {
+  width: 850px;
+  position: relative;
+  overflow-y: auto;
+  background: #fff;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 20;
+}
+
+#overlay {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  filter: alpha(opacity=10);
+  -moz-opacity: 0.1;
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+.dialog {
+  position: fixed;
+  border: 2px solid #3366CC;
+  width: 600px;
+  height: 500px;
+  background-color: #e2e2e2;
+  z-index: 12;
+}
+
+#overlay2 {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  filter: alpha(opacity=10);
+  -moz-opacity: 0.1;
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+.dialog2 {
+  position: fixed;
+  border: 2px solid #3366CC;
+  width: 800px;
+  height: 500px;
+  background-color: #e2e2e2;
+  z-index: 12;
+}
+
+input,
+select,
+optgroup,
+textarea {
+  font-size: 13px;
+  line-height: 13px;
+  margin-bottom: 1px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  vertical-align: middle;
+}
+
+input:disabled {
+  background-color: #e2e2e2;
+  color: #868282;
+  padding: 1px;
+  border: 1px solid darkgrey;
+}
+
+input[name=moreButton]:hover {
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+input[name=moreButton] {
+  background-color: transparent;
+  width: 60px;
+  text-align: center;
+  font-size: x-small;
+  font-style: italic;
+  border-style: none;
+  color: #0000FF;
+}
+
+input[name=navButton]:hover {
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+input[name=navButton] {
+  background-color: transparent;
+  width: 130px;
+  text-align: left;
+  font-size: x-small;
+  font-style: italic;
+  border-style: none;
+  color: #0000FF;
+}
+
+label {
+  margin-bottom: 0px;
+  font-size: 11px;
+}
+
+.modalContent {
+  font-weight: normal;
+  font-family: Arial, sans-serif, Helvetica;
+  font-size: 10px;
+}
+
+.modalColumnHeader {
+  font-weight: bold;
+  font-family: Arial, sans-serif, Helvetica;
+  font-size: 11px;
+  color: #000;
+}
+
+.modalHeader {
+  font-weight: bold;
+  font-family: Arial, sans-serif, Helvetica;
+  font-size: 12px;
+  color: #000;
+}
+
+#modalPartIVA {
+  margin: auto;
+  display: block;
+  width: 85%;
+}
+
+.modalPrint {
+  width: 835px;
+  height: auto;
+  position: static;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
+  max-width: 8.3in !important;
+}
+
+.modalShow {
+  min-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: auto;
+  width: 826px;
+  z-index: 1;
+}
+
+.modalInner {
+  position: relative;
+  height: 100%;
+}
+
+/*Modal Outer For 1702RT*/
+
+.modalShowRT {
+  border: 2px solid blue;
+  height: 600px;
+  background: #e2e2e2;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*Modal Inner For 1702RT*/
+
+.modalInnerRT {
+  width: 100%;
+  overflow: auto;
+}
+
+.previewButtonClass {
+  display: none !important;
+}
+
+.secondcol {
+  width: 50%;
+  padding: 5px 15px 5px 15px;
+  text-align: justify;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.smallSubtitle {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+
+.tblForm {
+  background: #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tblForm td.tblFormTd {
+  background-repeat: repeat-x;
+  background-position: top;
+  padding: 1px 0 1px 0;
+  border-top: #AAAAAA 1px solid;
+  border-right: #AAAAAA 1px solid;
+  background: #fff;
+}
+
+.tblForm td.tblFormTdPart {
+  background-repeat: repeat-x;
+  background-position: top;
+  padding: 1px 0 1px 0;
+  border-top: #AAAAAA 1px solid;
+  border-right: #AAAAAA 1px solid;
+}
+
+.tblFormTd1801,
+.tblFormTdPart1801 {
+  border-bottom: #AAAAAA 1px solid;
+  border-right: #AAAAAA 1px solid;
+}
+
+.small,
+.smallBold,
+.smallItalic,
+.smallBoldItalic {
+  font-size: 11px;
+}
+
+.smallerItalic {
+  font-style: italic;
+}
+
+.spacePadder {
+  padding: 4px 0 4px 0;
+}
+
+.smaller,
+.smallerBold,
+.smallerItalic,
+.smallerBoldItalic {
+  font-size: smaller;
+}
+
+.xxsmall,
+.xxsmallBold,
+.xxsmallItalic,
+.xxsmallBoldItalic {
+  font-size: 9px;
+}
+
+.xsmall,
+.xsmallBold,
+.xsmallItalic,
+.xsmallBoldItalic {
+  font-size: 11px;
+}
+
+.xlarge,
+.xlargeBold,
+.xlargeItalic,
+.xlargeBoldItalic {
+  font-size: x-large;
+}
+
